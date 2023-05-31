@@ -2,7 +2,7 @@ file = open ('file.txt', 'w', encoding='utf-8')
 if file.writable():
     print(file.write())
 else:
-    
+    print("hello world")
 
 
 # if file.readable():
